@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-nunjucks",
+  "version": "1.0.0",
+  "description": "A Rollup plugin for rendering Nunjucks templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/auto"
+  },
+  "type": "module",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "nunjucks",
+    "template"
+  ],
+  "author": "Frontend Layers",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.4",
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "rollup": "^4.34.4"
+  }
+}
